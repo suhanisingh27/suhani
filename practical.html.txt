@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Admission form</title>
+</head>
+<body>
+<h1>College Admission Form</h1>
+<form>
+           <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+           <label for="Phone Number">Phone:</label>
+            <input type="number" id="phone" name="phone" required>
+
+            <label for="course">Course:</label>
+            <select id="Course" name="Course" required>
+                <option value="Btech"></option>
+                <option value="Mba"></option>
+                <option value="BCA"></option>
+            </select>
+
+           <label for="Feedback">Feedback:</label><br>
+            <textarea id="Feedback" name="Feedback" rows="4" cols="4"></textarea>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset Form">
+     </form>
+</body>
+</html>
